@@ -1,5 +1,4 @@
 import { load } from "cheerio"
-import { translate } from "@vitalets/google-translate-api"
 import { fetchPage } from "../controllers/service.js"
 
 export const scrapeLatest = async (req, res) => {

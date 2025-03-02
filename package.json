@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node src/app.js",
+        "start": "node src/app.js"
     },
     "dependencies": {
         "axios": "^1.8.1",
@@ -17,5 +17,5 @@
         "node": ">=14.0.0"
     },
     "author": "",
-    "license": "ISC",
+    "license": "ISC"
 }

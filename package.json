@@ -1,11 +1,10 @@
 {
   "name": "zeroapi",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "run": "node src/app.js",
-    "run build": "vercel build"
+    "run": "node src/app.js"
   },
   "author": "",
   "license": "ISC",

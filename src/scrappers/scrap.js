@@ -364,16 +364,16 @@ export const scrapeList = async (req, res) => {
 export const scrapeNews = async (req, res) => {
     try {
         const response = await fetch("https://raw.githubusercontent.com/Fall-Xavier/Fall-Xavier/refs/heads/main/news.json");
-        const textData = await response.json()
-        textData.forEach(item => {
-            console.log(`Title: ${item.title}`);
-            console.log(`Description: ${item.description}`);
-            console.log("---------------------");
-        });
+        const jsonData = await response.json()
+        
+        textData = []
+        jsonData.forEach(item => {
+            textData.push({title: item.title, description: item.description })
+        })
         
         res.json( textData )
     } catch (error) {
         console.error("Scraping Error:", error)
         res.status(500).json({ error: error.message })
     }
-              }
+}

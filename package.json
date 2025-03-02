@@ -1,7 +1,6 @@
 {
     "name": "zeroapi",
     "version": "1.0.0",
-    "description": "Api Komik Bahasa Indonesia",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -18,4 +17,5 @@
     },
     "author": "",
     "license": "ISC",
+    "description": "",
 }

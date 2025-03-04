@@ -17,7 +17,6 @@ const headers = {
     "Accept-Language": "en-US,en;q=0.9,id;q=0.8",
     "Referer": "https://bacakomik.one/",
     "Origin": "https://bacakomik.one",
-    "X-Requested-With": "XMLHttpRequest",  
     "Upgrade-Insecure-Requests": "1",  
 }
 

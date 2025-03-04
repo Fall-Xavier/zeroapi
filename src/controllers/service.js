@@ -36,8 +36,8 @@ export const fetchPage = async (url, config = {}) => {
         await delay(1000)
         return response.data
     } catch (error) {
-        console.error(`Error fetching URL: ${url}`, error.message)
-        console.error("Error Response Headers:", error.response?.headers)
+        console.log(`Error fetching URL: ${url}`, error.message)
+        console.log("Error Response Headers:", error.response?.headers)
         throw error
     }
 }
